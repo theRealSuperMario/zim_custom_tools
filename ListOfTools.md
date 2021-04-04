@@ -6,6 +6,8 @@
 ## Start Jupyterlab
 
 
+**For MacOS, refer to `start_jupyterlab_iterm.py`
+
 * starts jupyterlab in new konsole tab from attachment directory or from selected path
 * Installation:
 1. open `start_jupyterlab.sh` and adjust paths to your needs
@@ -18,6 +20,7 @@
     * [ ] replaces selection
     * [x] appear in toolbar
 5. As symbol, choose the `start_jupyterlab.png` which you can download using `get_icons.sh`
+
 
 ## Start Konsole
 
