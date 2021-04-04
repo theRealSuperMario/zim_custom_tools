@@ -28,4 +28,8 @@ else
 fi
 mkdir -p $TARGET
 
-/usr/local/bin/python3 /Users/sandrobraun/Projekte/github_projects/zim_custom_tools/start_jupyterlab_iterm.py $TARGET
+#https://stackoverflow.com/questions/1668649/how-to-keep-quotes-in-bash-arguments/1669548
+# enter command as string, not as sequence of arguments
+COMMAND="source /Users/sandrobraun/miniconda3/bin/activate jupyterlab;jupyter-lab"
+
+/usr/local/bin/python3 /Users/sandrobraun/Projekte/github_projects/zim_custom_tools/iterm.py $TARGET "$COMMAND"
