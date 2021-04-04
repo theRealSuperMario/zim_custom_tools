@@ -43,7 +43,7 @@
 2.  open zim, then navigate to : `Tools` -> `Custom Tools` -> `add`
 3. Enter the following:
     * as `Name`, enter `vscode`
-    *  as `Command`, enter : `xxx/start_vscode.sh %d`
+    *  as `Command`, enter : `xxx/start_vscode.sh %d %t`
 4. check the following text boxes
     * [x] does not modify data
     * [ ] replaces selection
